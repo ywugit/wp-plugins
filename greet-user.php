@@ -8,6 +8,7 @@ $checkForGreetingFilter = function() {
     if (isset($_GET['hello'])) {
         echo "<h1>Hello {$_GET['hello']}!</h1>";
         die();
+    Yan add to ef branch
     }
 };
 add_filter('wp_loaded', $checkForGreetingFilter);
